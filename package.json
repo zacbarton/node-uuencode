@@ -1,0 +1,18 @@
+{
+  "name": "uuencode",
+  "description": "Node.js implementation of the Unix program uuencode.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Barton"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "todo"
+  },
+  "keywords": [
+    "uuencode"
+    , "encode"
+  ]
+}
