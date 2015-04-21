@@ -8,7 +8,7 @@ More information on the uuencode encoding can be found [here](http://en.wikipedi
 Installation
 --------
 
-    $ npm install -g uuencode
+    npm install -g uuencode
 
 Examples
 --------
@@ -27,7 +27,7 @@ var decoded = uuencode.decode('556YI>"UT;RU5;FEX(&5N8V]D:6YG\n');
 // 'Unix-to-Unix encoding'
 ```
 
-Todo
+Running Tests
 ----
 
-- Add test cases
+    $ npm test
