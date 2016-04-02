@@ -1,12 +1,12 @@
 {
   "name": "uuencode",
   "description": "Node.js implementation of the Unix program uuencode.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Zac Barton"
   },
   "scripts": {
-      "test": "make test"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   	"should": "5.0.1"
   },
   "keywords": [
-    "uuencode"
-    , "uudecode"
-    , "encode"
-    , "decode"
+    "uuencode",
+    "uudecode",
+    "encode",
+    "decode"
   ]
 }
