@@ -140,9 +140,9 @@ function decodeChars(inBytes, inIndex, outBytes, outIndex) {
 	var b2 = (c2 - 32 & 0x3F) << 4 | (c3 - 32 & 0x3F) >> 2;
 	var b3 = (c3 - 32 & 0x3F) << 6 | c4 - 32 & 0x3F;
 
-	outBytes[outIndex] = b1;
-	outBytes[outIndex + 1] = b2;
-	outBytes[outIndex + 2] = b3;
+	outBytes[outIndex] = b1 & 0xFF;
+	outBytes[outIndex + 1] = b2 & 0xFF;
+	outBytes[outIndex + 2] = b3 & 0xFF;
 }
 
 // exports
