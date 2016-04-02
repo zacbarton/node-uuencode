@@ -147,6 +147,6 @@ function decodeChars(inBytes, inIndex, outBytes, outIndex) {
 
 // exports
 module.exports = {
-	encode: encode
-	, decode: decode
+	encode: encode,
+	decode: decode
 };
