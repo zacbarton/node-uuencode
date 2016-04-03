@@ -31,3 +31,5 @@ Running Tests
 ----
 
     $ npm test
+
+Note the uuencode utility must be installed for all tests to pass.
